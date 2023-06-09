@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    drive-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: system
+    password: system
+# MyBatis mapper config
+mybatis:
+  type-aliases-package: com.mybatis.mybatisspringtrytwo.domain.entity
+#  mapper-locations: classpath:mapper/*.xml
